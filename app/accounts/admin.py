@@ -21,6 +21,7 @@ class UserProfileAdmin(admin.ModelAdmin):
     _active.short_description = 'active'
     list_display = (
             '_username',
+            'id',
             '_active',
             '_lastlogin',
             )

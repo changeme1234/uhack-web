@@ -11,10 +11,13 @@ class PredictionAdmin(admin.ModelAdmin):
             'user',
             'symbol',
             'choice',
+            'result',
+            'balance',
             'start_date',
             'end_date',
             )
     list_filter = (
+        'user',
            )
     search_fields = (
             )
