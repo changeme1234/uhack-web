@@ -32,7 +32,7 @@ jsonschema==2.6.0
 lazy-object-proxy==1.2.1
 lockfile==0.12.2
 logilab-common==1.1.0
-lxml==3.5.0
+lxml==4.6.3
 Mako==1.0.3
 MarkupSafe==0.23
 nemo-emblems==3.2.3
